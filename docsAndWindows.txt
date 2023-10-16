@@ -1,0 +1,45 @@
+Document Object and Window Object
+
+In web programming, especially when working with JavaScript, you will come across two crucial concepts: 
+the Document Object and the Window Object. These two objects are the backbone of the Document Object Model (DOM), 
+which is a programming interface for web documents. It represents the structure of a document and allows a way 
+to manipulate its content and layout.
+
+The Window Object:
+
+The Window Object is the top-level object in the browser Object hierarchy. It represents an open window 
+in a browser and holds global variables, global functions, location, history, and screen. When a webpage 
+is loaded into a browser, a new window object is automatically created.
+
+The Window Object provides numerous methods and properties to interact with the browser window. 
+These include methods to open/close a window, to show prompts, alerts, or confirmations, to navigate between 
+tabs, and many more. The Window Object is also the global object for JavaScript, meaning all global variables 
+and functions become properties and methods of the window.
+
+The Document Object:
+
+The Document Object, on the other hand, is a part of the Window Object. It represents any web page 
+loaded in the browser and serves as an entry point into the web page's content. 
+
+The Document Object allows you to manipulate everything inside a webpage, i.e., HTML elements, 
+attributes, events, and styles. You can create, delete, change, and add HTML elements & attributes, change 
+CSS styles, and react to HTML events. Basically, the Document Object is the owner of all other objects in your web page.
+
+The Difference:
+
+While both objects are part of the DOM and are interconnected, they serve different purposes 
+and offer different functionalities.
+
+The Window Object is the overall representation of a browser window and includes everything from the document, 
+buttons, and address bar, to the current URL. It deals more with the browser's components and behavior, such 
+as the user's screen size, scrolling, and URL changes.
+
+In contrast, the Document Object is more concerned with the content of the webpage displayed in that browser 
+window. It allows developers to create, read, update and delete the elements and content within the HTML document.
+
+Put simply, the Window Object is like a container that includes the Document Object among other objects, 
+whereas the Document Object represents the content of a webpage.
+
+In conclusion, understanding the difference between these two objects is fundamental to manipulating the 
+browser and the DOM effectively. Knowing when and how to use the Window Object and Document Object will 
+allow you to create more interactive and dynamic web pages.
